@@ -26,8 +26,8 @@ add_compile_options(
   -Wextra
   -Werror
   -fdiagnostics-color=always
+  -Wno-unused-parameter
 )
-
 
 # Set up project
 project(pico_project_base C CXX ASM)
@@ -36,3 +36,6 @@ set(CMAKE_CXX_STANDARD 20)
 
 # Initialize the SDK
 pico_sdk_init()
+
+add_subdirectory(application)
+add_subdirectory(lib)

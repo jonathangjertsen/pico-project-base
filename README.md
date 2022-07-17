@@ -2,6 +2,8 @@
 
 Base for a project for Raspberry Pi Pico, using the C pico-sdk
 
+Provides builds for Pico and Pico W
+
 ## Prerequisites
 
 * [cmake](https://cmake.org/download/)
