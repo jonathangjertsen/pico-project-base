@@ -14,3 +14,9 @@ Base for a project for Raspberry Pi Pico, using the C pico-sdk
 git clone --recurse-submodules <upstream-url>
 sh scripts/setup.sh
 ```
+
+## Build
+
+```sh
+sh scripts/build.sh
+```
